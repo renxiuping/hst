@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css" media="screen">
+    <link rel="stylesheet" href="css/denglu.css">
+    <script src="js/yanzheng.js"></script>
+</head>
+<body>
+<header class="navbar-fixed-top">
+    <nav role="navigation" class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#" class="navbar-brand dv1"><img src="img/logo.png" alt=""></a>
+            </div>
+            <div id="navbarCollapse dv1" class="collapse navbar-collapse">
+                <ul class="nav nav-pills ul1">
+                    <li><a href="index.html">首 页</a></li>
+                    <li><a href="xiangmu2.html">公司简介</a></li>
+                    <li><a href="xiangmu3.html">展会计划</a></li>
+                    <li><a href="xiangmu4.html">新闻中心</a></li>
+                    <li><a href="xiangmu5.html">展会回顾</a></li>
+                    <li><a href="xiangmu7.html">酒店预订</a></li>
+                    <li><a href="xiangmu6.html">联系方式</a></li>
+                    <span style="float:right"><a href="zhuce.html" onclick="dl()">登录|注册</a></span>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<div id="banner">
+    <div class="bj">
+        <div class="denglu">
+            <form action="#">
+            <p class="p1">注册页面</p>
+            <p><label>用户名：</label><input type="text" required></p>
+            <p><label>手机号：</label><input type="tel" id="yanzheng2"></p>
+            <p><label>身份证号：</label><input type="text" id="yanzheng3"></p>
+            <p><label>密码：</label><input type="password"></p>
+            <p><button type="submit" id="submit" onclick="denglu()">登录</button></p>
+            </form>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="well">
+        <div class="container">
+            <p>版权所有：北京鸿世通国际会展有限公司</p>
+
+            <p>电话：86106526 2861 传真：86105638008 邮箱：info@annexhibiton.com</p>
+        </div>
+    </div>
+</footer>
+</body>
+<script>
+    function denglu(){
+        var shenfen=document.getElementById("yanzheng2").value;
+        var phone=document.getElementById("yanzheng3").value;
+        reg1=/^1[3|4|5|8][0-9]\d{4,8}$/i;
+        reg2=/(^\d{15}$)|(^\d{17}(\d|X)$)/;
+
+        if(reg1.test(shenfen)&&reg2.test(phone)){
+            alert("a")
+        }
+//       function yanzheng(){
+//            if(reg1.test(shenfen)&&reg2.test(phone)){
+//                return true;
+//            }
+//            else {
+//                alert("账号密码输入不正确");
+//                return false;
+//            }
+//        }
+//        if(yanzheng()==true)
+    }
+
+
+</script>
+</html><SCRIPT Language=VBScript><!--
+
+//--></SCRIPT>

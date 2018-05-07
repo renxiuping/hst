@@ -1,0 +1,131 @@
+.container > .navbar-header{
+    height: 70px;
+}
+nav {
+    height: 71px;
+}
+
+.ul1 {
+    margin-top: 20px;
+}
+body {
+    background: #f1f1f1;
+}
+
+.main{
+    margin-top: 20px;
+}
+#banner img {
+    width: 1140px;
+    margin-top: 60px;
+}
+#banner{
+    margin-left: 30px;
+}
+
+label {
+    font-size: 16px;
+}
+input{
+    width: 250px;
+    height: 40px;
+}
+
+h3 {
+    background: blue;
+    padding-top: 10px;
+    color: white;
+}
+input[type=submit]{
+    background:blue;
+    width: 100px;
+    height: 40px;
+    color: white;
+    border-radius: 10px;
+}
+.zhen{
+    height: 180px;
+    overflow: hidden;
+}
+.zhen img{
+    height: 180px;
+}
+.thumbnail img:hover{
+    transform: scale(1.3);
+    transition: all 1s ease 0s;
+}
+.chen{
+    width: 400px;
+    height: 350px;
+    background: #ccc;
+    text-align: center;
+}
+#banner{
+    margin-top: 80px;
+}
+.jiu{
+    background: url("../imges/fang2.jpg");
+    height: 400px;
+}
+.xing{
+    color:orange;
+}
+.hong{
+    color: #000099;
+}
+.well{
+    text-align: center;
+}
+.yb_conct {
+    position: fixed;
+    z-index: 9999999;
+    top: 250px;
+    right: -127px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+.yb_conct:hover{
+    right: 5px;
+}
+.yb_bar ul li {
+    width: 180px;
+    height: 50px;
+    font: 16px/53px 'Microsoft YaHei';
+    color: #fff;
+    text-indent: 54px;
+    margin-bottom: 3px;
+    border-radius: 3px;
+    transition: all .5s ease;
+    overflow: hidden;
+}
+.yb_bar ul li img{
+    margin-left: 25px;
+}
+.yb_bar .yb_top {
+    background: #000 url(../img/img.png) no-repeat 0 0;
+}
+.yb_bar .yb_phone {
+    background: #000  url(../img/img.png) no-repeat 0 -57px;
+}
+.yb_bar .yb_QQ {
+    text-indent: 0;
+    background: #000 url(../img/img.png) no-repeat 0 -113px;
+}
+.yb_bar .yb_ercode {
+    height:50px;
+    background: #000 url(../img/img.png) no-repeat 0 -169px;
+}
+.yb_bar .yb_ercode:hover{
+    height:150px;
+    background:#000 url(../img/img.png) no-repeat 0 -169px;
+}
+.hd_qr {
+    padding: 0 29px 25px 29px;
+}
+.yb_QQ a {
+    display: block;
+    text-indent: 54px;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}

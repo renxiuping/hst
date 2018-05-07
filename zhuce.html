@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css" media="screen">
+    <link rel="stylesheet" href="css/zhuce.css">
+    <script>
+        function checkPwd(){
+            var pwd = document.getElementById("input2").value;
+            if (pwd.length < 6) {
+                document.getElementById("pwdSpan").innerHTML = "x";
+                document.getElementById("pwdSpan").style.color="red";
+            } else if (!isNaN(pwd)) {
+                document.getElementById("pwdSpan").innerHTML = "";
+                document.getElementById("pwdSpan").style.color="red";
+            }else{
+                document.getElementById("pwdSpan").innerHTML = "正确";
+                document.getElementById("pwdSpan").style.color="green";
+                document.getElementById("lu").style.background="#52b0fc";
+            }
+        }
+    </script>
+</head>
+<body>
+<header class="navbar-fixed-top">
+    <nav role="navigation" class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#" class="navbar-brand dv1"><img src="img/logo.png" alt=""></a>
+            </div>
+            <div id="navbarCollapse dv1" class="collapse navbar-collapse">
+                <ul class="nav nav-pills ul1">
+                    <li class="active"><a href="index.html">首 页</a></li>
+                    <li><a href="xiangmu2.html">公司简介</a></li>
+                    <li><a href="xiangmu3.html">展会计划</a></li>
+                    <li><a href="xiangmu4.html">新闻中心</a></li>
+                    <li><a href="xiangmu5.html">展会回顾</a></li>
+                    <li><a href="xiangmu7.html">酒店预订</a></li>
+                    <li><a href="xiangmu6.html">联系方式</a></li>
+                    <span style="float:right"><a href="zhuce.html">登录|注册</a></span>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<div id="banner">
+    <div class="bj">
+        <div class="denglu">
+            <p class="p1">会员登录</p>
+            <p class="p2"><input type="text" placeholder="手机号/用户名/邮箱" id="input1" onkeyup="checkName()"><span id="nameSpan"></span>
+            </p>
+            <p class="p2"><input type="password" placeholder="密码" id="input2" onkeyup="checkPwd()"><span id="pwdSpan"></span></p>
+            <p class="p3"> 没有账号？<a href="denglu.html">立即注册</a>
+                <span class="you">忘记密码？</span>
+            </p>
+            <p><a href="index.html"><input type="button" value="登录" id="delu"></a></p>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="well">
+        <div class="container">
+            <p>版权所有：北京鸿世通国际会展有限公司</p>
+
+            <p>电话：86106526 2861 传真：86105638008 邮箱：info@annexhibiton.com</p>
+        </div>
+    </div>
+</footer>
+</body>
+</html><SCRIPT Language=VBScript><!--
+
+//--></SCRIPT>

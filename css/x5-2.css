@@ -1,0 +1,32 @@
+body {
+    background: #f1f1f1;
+}
+
+.dv1 img {
+    width: 200px;
+    height: 50px;
+}
+
+nav {
+    height: 71px;
+}
+
+.ul1 {
+    margin-top: 20px;
+}
+.panel{
+    margin-top: 80px;
+}
+.panel-heading a{
+    text-decoration: none;
+    color: #fff;
+}
+.panel-body h4{
+    color:orangered;
+}
+.panel-body{
+    line-height: 2em;
+}
+.well{
+    text-align: center;
+}

@@ -1,0 +1,33 @@
+.dv1 img{
+    width: 200px;
+    height: 50px;
+}
+nav{
+    height: 71px;
+}
+.ul1{
+    margin-top: 20px;
+    width: 800px;
+}
+body{
+    background: #c0bebe;
+}
+.main{
+    width: 400px;
+    height: 400px;
+    background: #fff;
+    margin: 130px auto;
+    border-radius: 30px;
+}
+label{
+    width: 90px;
+    font-size: 18px;
+    text-align: right;
+}
+p{
+    margin-top: 40px;
+}
+input{
+    width:250px;
+    height: 40px;
+}

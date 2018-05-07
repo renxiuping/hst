@@ -1,0 +1,95 @@
+.dv1 img {
+    width: 200px;
+    height: 50px;
+}
+
+nav {
+    height: 71px;
+}
+
+.ul1 {
+    margin-top: 20px;
+    width: 800px;
+}
+
+.banner {
+    margin-top: 80px;
+}
+
+body {
+    background: #c0bebe;
+}
+
+.li1 {
+    margin-top: 3px;
+}
+
+#dv ul li {
+    float: left;
+    width: 250px;
+    height: 52px;
+    text-align: center;
+    line-height: 52px;
+    font-weight: 700;
+    border-bottom: 1px solid #53b0fd;
+}
+
+#dv ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#dv div {
+    height: 367px;
+    width: 500px;
+    clear: both;
+}
+
+#dv {
+    height: 420px;
+    width: 500px;
+    margin-top: 40px;
+    background: #fff;
+    border-radius: 10px;
+}
+
+#li2 {
+    display: none;
+}
+
+#li1 #img1 {
+    background: #fff url("../img/name_03.jpg") no-repeat left;
+    padding-left: 50px;
+    width: 335px;
+    height: 44px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
+
+#li1 #img2 {
+    background: #fff url("../img/pwd_06.jpg") no-repeat left;
+    padding-left: 50px;
+    width: 335px;
+    height: 44px;
+    margin-top: 45px;
+    border: 1px solid #ccc;
+}
+
+#deng {
+    width: 335px;
+    height: 44px;
+    background: #53b0fd;
+    margin-left: 60px;
+    margin-top: 30px;
+    letter-spacing: 10px;
+}
+
+#li1 p {
+    margin-left: 60px;
+}
+
+#li2 img {
+    margin-left: 155px;
+    margin-top: 30px;
+}

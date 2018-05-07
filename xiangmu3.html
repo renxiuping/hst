@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css" media="screen">
+    <link rel="stylesheet" href="css/x3.css">
+    <script>
+        function main1() {
+            document.getElementById("main1").style.display = "none";
+            document.getElementById("main2").style.display = "block"
+        }
+        function main2() {
+            document.getElementById("main2").style.display = "none";
+            document.getElementById("main1").style.display = "block"
+        }
+    </script>
+</head>
+<body>
+<header class="navbar-fixed-top">
+    <nav role="navigation" class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#" class="navbar-brand dv1"><img src="img/logo.png" alt=""></a>
+            </div>
+            <div id="navbarCollapse dv1" class="collapse navbar-collapse">
+                <ul class="nav nav-pills ul1">
+                    <li><a href="index.html">首 页</a></li>
+                    <li><a href="xiangmu2.html">公司简介</a></li>
+                    <li class="active"><a href="xiangmu3.html">展会计划</a></li>
+                    <li><a href="xiangmu4.html">新闻中心</a></li>
+                    <li><a href="xiangmu5.html">展会回顾</a></li>
+                    <li><a href="xiangmu7.html">酒店预订</a></li>
+                    <li><a href="xiangmu6.html">联系方式</a></li>
+                    <span style="float:right"><a href="zhuce.html">登录|注册</a></span>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<div id="banner">
+    <div class="container">
+        <div class="img1 row">
+            <div class="col-md-9 banner1">
+                <img src="imges/di1_03.gif" alt="">
+            </div>
+            <div class="col-md-3 banner2">
+                <div class="fl">
+                    <form method="get" action="#">
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td height="35" align="right"><label>行业：</label></td>
+                                <td width="68%">
+                                    <select style="width:140px;">
+                                        <option> - 请选择 -</option>
+                                        <option>环保水处理</option>
+                                        <option>能源</option>
+                                        <option>农畜牧业</option>
+                                        <option>流体机械（泵阀管道、压缩机）</option>
+                                        <option>建材</option>
+                                        <option>铁路</option>
+                                        <option>制冷空调</option>
+                                        <option>医疗</option>
+                                        <option>绿化</option>
+                                        <option>电力</option>
+                                        <option>食品</option>
+                                        <option>酿酒</option>
+                                        <option>汽车、零配</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="35" align="right"><label>年份：</label></td>
+                                <td><select style="width:140px;">
+                                    <option> - 请选择 -</option>
+                                    <option>2007</option>
+                                    <option>2008</option>
+                                    <option>2009</option>
+                                    <option>2010</option>
+                                    <option>2011</option>
+                                    <option>2012</option>
+                                    <option>2013</option>
+                                    <option>2014</option>
+                                    <option>2015</option>
+                                    <option>2016</option>
+                                    <option>2017</option>
+                                    <option>2018</option>
+                                    <option>2019</option>
+                                    <option>2020</option>
+                                    <option>2021</option>
+                                    <option>2022</option>
+                                </select></td>
+                            </tr>
+                            <tr>
+                                <td height="35" align="right"><label>地区：</label></td>
+                                <td><select style="width:140px;">
+                                    <option> - 请选择 -</option>
+
+                                    <option>亚洲</option>
+
+                                    <option>北美洲</option>
+
+                                    <option>欧洲</option>
+
+                                    <option>南美洲</option>
+
+                                    <option>非洲</option>
+
+                                    <option>大洋洲</option>
+
+                                </select></td>
+                            </tr>
+                            <tr>
+                                <td height="35" align="right"><label>国家：</label></td>
+                                <td><select style="width:140px;">
+                                    <option> - 请选择 -</option>
+
+                                    <option>美国</option>
+
+                                    <option>墨西哥</option>
+
+                                    <option>加拿大</option>
+
+                                    <option>中国</option>
+
+                                    <option>土耳其</option>
+
+                                    <option>马来西亚</option>
+
+                                    <option>泰国</option>
+
+                                    <option>孟加拉</option>
+
+                                    <option>越南</option>
+
+                                    <option>菲律宾</option>
+
+                                    <option>哈萨克斯坦</option>
+
+                                    <option>沙特阿拉伯</option>
+
+                                    <option>阿布扎比</option>
+                                </select></td>
+                            </tr>
+                            <tr>
+                                <td height="36">&nbsp;</td>
+                                <td><input type="button" value="搜索" class="btn btn-warning"></td>
+                            </tr>
+                        </table>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="main">
+    <div class="container main1">
+        <div id="main1">
+            <div class="row main2">
+                <div class="col-md-11">
+                    <h4>展会列表</h4>
+                </div>
+                <div class="col-md-1" onclick="main1()">
+                    <a href="#"><h4 style="color:#fff;">更多>></h4></a>
+                </div>
+            </div>
+            <div class="row m1">
+                <div class="col-md-5"><a href="#"><img src="imges/20170407_1657_1241.png" alt=""></a></div>
+                <div class="col-md-5 main3">
+                    <p class="p1">2018年越南国际家禽畜牧产业展览会</p>
+
+                    <p>ECC国际展览中心</p>
+                </div>
+                <div class="col-md-2 main4">
+                    2018.10.17 - 10.19
+                </div>
+            </div>
+            <div class="row m1">
+                <div class="col-md-5"><a href="#"><img src="imges/20160801_1454_1411.png" alt="" id="img1"></a></div>
+                <div class="col-md-5 main3">
+                    <p class="p1">2018年马来西亚国际家禽展览会</p>
+
+                    <p>Kuala Lumpur Convention Center</p>
+                </div>
+                <div class="col-md-2 main4">
+                    2018.4.19 - 4.21
+                </div>
+            </div>
+            <div class="row m1">
+                <div class="col-md-5"><a href="#"><img src="imges/20170407_1718_8969.png" alt="" id="img2"></a></div>
+                <div class="col-md-5 main3">
+                    <p class="p1">2018年第10届阿根廷国际家禽及畜牧展览会</p>
+
+                    <p>阿根廷—布宜诺斯艾利斯</p>
+                </div>
+                <div class="col-md-2 main4">
+                    2018.5.8 - 5.10
+                </div>
+            </div>
+            <div class="row m1">
+                <div class="col-md-5"><a href="#"><img src="imges/20170407_1640_8863.png" alt="" id="img3"></a></div>
+                <div class="col-md-5 main3">
+                    <p class="p1">2018年第10届阿根廷国际家禽及畜牧展览会</p>
+
+                    <p>阿根廷—布宜诺斯艾利斯</p>
+                </div>
+                <div class="col-md-2 main4">
+                    2018.5.8 - 5.10
+                </div>
+            </div>
+            <div class="row m1">
+                <div class="col-md-5"><a href="#"><img src="imges/20170410_1636_4230.png" alt="" id="img4"></a></div>
+                <div class="col-md-5 main3">
+                    <p class="p1">2018年第10届阿根廷国际家禽及畜牧展览会</p>
+
+                    <p>阿根廷—布宜诺斯艾利斯</p>
+                </div>
+                <div class="col-md-2 main4">
+                    2018.5.8 - 5.10
+                </div>
+            </div>
+        </div>
+        <div id="main2" style="display: none">
+            <div class="row main2">
+                <div class="col-md-11">
+                    <h4>展会列表</h4>
+                </div>
+                <div class="col-md-1" onclick="main2()">
+                    <a href="#"><h4 style="color:#fff;">上一页</h4></a>
+                </div>
+            </div>
+            <div class="row m1">
+                <div class="col-md-5"><a href="#"><img src="imges/20161205_1345_5698.png" alt="" id="img5"></a></div>
+                <div class="col-md-5 main3">
+                    <p class="p1">2018年第10届阿根廷国际家禽及畜牧展览会</p>
+
+                    <p>阿根廷—布宜诺斯艾利斯</p>
+                </div>
+                <div class="col-md-2 main4">
+                    2018.10.17 - 10.19
+                </div>
+            </div>
+            <div class="row m1">
+                <div class="col-md-5"><a href="#"><img src="imges/20161019_1726_9653.png" alt="" id="img6"></a></div>
+                <div class="col-md-5 main3">
+                    <p class="p1">2018年马来西亚国际家禽展览会</p>
+
+                    <p>Kuala Lumpur Convention Center</p>
+                </div>
+                <div class="col-md-2 main4">
+                    2018.4.19 - 4.21
+                </div>
+            </div>
+            <div class="row m1">
+                <div class="col-md-5"><a href="#"><img src="imges/20160613_1205_1900.jpg" alt="" id="img7"></a></div>
+                <div class="col-md-5 main3">
+                    <p class="p1">2018年第10届阿根廷国际家禽及畜牧展览会</p>
+
+                    <p>阿根廷—布宜诺斯艾利斯</p>
+                </div>
+                <div class="col-md-2 main4">
+                    2018.5.8 - 5.10
+                </div>
+            </div>
+            <div class="row m1">
+                <div class="col-md-5"><a href="#"><img src="imges/20170519_1355_9177.png" alt="" id="img8"></a></div>
+                <div class="col-md-5 main3">
+                    <p class="p1">2018年第10届阿根廷国际家禽及畜牧展览会</p>
+
+                    <p>阿根廷—布宜诺斯艾利斯</p>
+                </div>
+                <div class="col-md-2 main4">
+                    2018.5.8 - 5.10
+                </div>
+            </div>
+            <div class="row m1">
+                <div class="col-md-5"><a href="#"><img src="imges/20161128_1548_8057.png" alt="" id="img9"></a></div>
+                <div class="col-md-5 main3">
+                    <p class="p1">2018年第10届阿根廷国际家禽及畜牧展览会</p>
+
+                    <p>阿根廷—布宜诺斯艾利斯</p>
+                </div>
+                <div class="col-md-2 main4">
+                    2018.5.8 - 5.10
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="well">
+        <div class="container">
+            <p>版权所有：北京鸿世通国际会展有限公司</p>
+
+            <p>电话：86106526 2861 传真：86105638008 邮箱：info@annexhibiton.com</p>
+        </div>
+    </div>
+    <div class="yb_conct">
+        <div class="yb_bar">
+            <ul>
+                <li class="yb_phone">8610 6526 2861</li>
+                <li class="yb_QQ">
+                    <a target="_blank" href="#" >在线咨询</a>
+                </li>
+                <li class="yb_ercode">微信二维码 <br>
+                    <img class="hd_qr" src="img/img.jpg" width="125" alt="关注你附近">
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>
+</body>
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</html><SCRIPT Language=VBScript><!--
+
+//--></SCRIPT>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.css" media="screen">
+    <link rel="stylesheet" href="css/huiyuan1.css">
+    <script>
+        function pu() {
+            document.getElementById("li2").style.display = "none";
+            document.getElementById("li1").style.display = "block";
+        }
+        function wm() {
+            document.getElementById("li1").style.display = "none";
+            document.getElementById("li2").style.display = "block";
+        }
+        function youxing() {
+            var y = document.getElementById("img1").value;
+            var a = /^([a-zA-Z0-9_-])+@([a-zA-Z0-9_-])+(.[a-zA-Z0-9_-])+/;
+            if (!a.test(y)) {
+                document.getElementById("img11").innerHTML = "错误"
+            } else {
+                document.getElementById("img11").innerHTML = "正确"
+            }
+        }
+        function cjmima() {
+            var mima = document.getElementById("img2").value;
+            if (mima.length < 6) {
+                document.getElementById("img22").innerHTML = "x"
+            } else if (!isNaN(mima)) {
+                document.getElementById("img22").innerHTML = "纯数";
+                document.getElementById("deng").style.background = "#52b0fc";
+                document.getElementById("deng").style.color = "#fff";
+            } else {
+                document.getElementById("img22").innerHTML = "正确";
+            }
+        }
+    </script>
+</head>
+<body>
+<header class="navbar-fixed-top">
+    <nav role="navigation" class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="#" class="navbar-brand dv1"><img src="../img/logo.png" alt=""></a>
+            </div>
+            <div id="navbarCollapse dv1" class="collapse navbar-collapse">
+                <ul class="nav nav-pills ul1">
+                    <li><a href="houtai.html">后台管理员</a></li>
+                    <li style="float: right"><a href="#">退出登录</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<div class="banner">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <ul class="nav nav-pills nav-stacked" id="banner1">
+                    <li><a href="houtai.html" class="list-group-item active"><span
+                            class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;&nbsp;管理员</a>
+                        <ul class="nav nav-pills nav-stacked li1">
+                            <li><a href="houtai.html" class="list-group-item">高级管理员</a></li>
+                            <li><a href="#" class="list-group-item">普通管理员</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" class="list-group-item active"><span class="glyphicon glyphicon-signal"></span>&nbsp;&nbsp;&nbsp;管理统计</a>
+                        <ul class="nav nav-pills nav-stacked li1">
+                            <li><a href="huiyuan1.html" class="list-group-item">会员注册系统</a></li>
+                            <li><a href="zuche.html" class="list-group-item">租车预定系统</a></li>
+                            <li><a href="jiudian.html" class="list-group-item">酒店预订系统</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" class="list-group-item active"><span class="glyphicon glyphicon-th-list"></span>&nbsp;&nbsp;&nbsp;网站管理</a>
+                        <ul class="nav nav-pills nav-stacked li1">
+                            <li><a href="xinwen.html" class="list-group-item">新闻更新</a></li>
+                            <li><a href="#" class="list-group-item">酒店更新</a></li>
+                            <li><a href="#" class="list-group-item">产品上新</a></li>
+                            <li><a href="#" class="list-group-item">二维码更新</a></li>
+                            <li><a href="wenti.html" class="list-group-item">问题反馈统计</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" class="list-group-item active"><span class="glyphicon glyphicon-log-out"></span>&nbsp;&nbsp;&nbsp;退出登录</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-8">
+                <div id="dv">
+                    <ul>
+                        <li onclick="pu()">普通登录</li>
+                        <li onclick="wm()">二维码登录</li>
+                    </ul>
+                    <div id="li1">
+                        <p><input type="text" placeholder="邮箱" id="img1" onblur="youxing()"><span id="img11"></span></p>
+                        <p><input type="password" placeholder="......" id="img2" onkeyup="cjmima()"><span
+                                id="img22"></span></p>
+                        <input type="button" value="登录" id="deng">
+                    </div>
+                    <div id="li2">
+                        <img src="img/getUrlQrcode.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="../js/jquery-1.11.1.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+</html><SCRIPT Language=VBScript><!--
+
+//--></SCRIPT>
